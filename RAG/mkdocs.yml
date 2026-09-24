@@ -1,4 +1,6 @@
 site_name: RAG
+working-directory: RAG
+
 theme:
   name: material
   features:
