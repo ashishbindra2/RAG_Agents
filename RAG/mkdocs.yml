@@ -1,4 +1,4 @@
-site_name: RAG
+site_name:  RAG Learning
 working-directory: RAG
 
 theme:
@@ -31,7 +31,6 @@ theme:
         name: Switch to light mode    
       primary: blue
       accent: indigo
-
 
 extra:
   social:
