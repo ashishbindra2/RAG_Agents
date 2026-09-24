@@ -72,7 +72,7 @@ markdown_extensions:
       smart_enable: all
 
 nav:
-  - Home: Overview.md
+  - Home: index.md
   - Basic: Basic.md 
 
 copyright: |
