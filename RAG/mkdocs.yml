@@ -1,44 +1,51 @@
-site_name:  RAG Learning
-working-directory: RAG
+site_name: RAG Learning
+site_url: https://ashishbindra2.github.io/RAG_Agents/
 
 theme:
   name: material
+
   features:
-  - content.tabs.link
-  - content.code.annotation
-  - content.code.copy
-  - navigation.sections
-  - navigation.indexes
-  - navigation.instant
-  - navigation.tabs
-  - navigation.top
-  - navigation.tracking
-  - search.suggest
-  - search.highlight
-  - toc.follow
-  
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
   language: en
+
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: deep purple
-      accent: light blue 
-    - scheme: slate 
+      accent: light blue
+
+    - scheme: slate
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode    
+        name: Switch to light mode
       primary: blue
       accent: indigo
+
+plugins:
+  - search
+  - awesome-pages
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/ashishbindra2
+
     - icon: fontawesome/brands/linkedin
       link: https://in.linkedin.com/in/ashishbindra2/
-
 
 markdown_extensions:
   - sane_lists
@@ -51,23 +58,27 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+
   - toc:
       permalink: true
+
   - pymdownx.highlight:
       anchor_linenums: true
+
   - pymdownx.arithmatex:
       generic: true
+
   - pymdownx.betterem:
       smart_enable: all
-  
+
 nav:
-  - Home: Basic.md
-  # - database:
-    # - Overview: database/index.md 
-  # - tools:
-  #   - poetry: tools/poetry.md
-  # - Pydantic: pydantic.md    
-  # - imp: important.md
-  - Basic: Overview.md
+  - Home: Overview.md
+  - Basic: Basic.md 
+
 copyright: |
-  &copy; 2026 <a href="https://github.com/ashishbindra2"  target="_blank" rel="noopener">Ashish Bindra</a>
+  &copy; 2026
+  <a href="https://github.com/ashishbindra2"
+     target="_blank"
+     rel="noopener">
+     Ashish Bindra
+  </a>
